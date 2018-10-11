@@ -30,3 +30,4 @@ state = {
 }
 
 WS_0.setState(state)
+print str(WS_0)
