@@ -70,13 +70,3 @@ class WorldState():
 		if self.existColor(from_bucket, color):
 			self._buckets[from_bucket]._balls[color] = self._buckets[from_bucket]._balls[color] - 1
 			self._buckets[to_bucket]._balls[color] = self._buckets[to_bucket]._balls[color] + 1
-
-
-
-
-
-
-
-
-
-
