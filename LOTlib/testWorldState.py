@@ -23,10 +23,10 @@ print '3: ' + str(WS_0==WS_1)
 print str(WS_0) + '\n-----------------------\n' + str(WS_1)
 
 state = {
-	'bucket_0': Bucket(n_black_ball=1, n_red_ball=2, n_green_ball=3)
-	'bucket_1': Bucket(n_black_ball=4, n_red_ball=5, n_green_ball=6)
-	'bucket_2': Bucket(n_black_ball=7, n_red_ball=8, n_green_ball=9)
-	'bucket_3': Bucket(n_black_ball=10, n_red_ball=11, n_green_ball=12)
+	'bucket_0': Bucket(black=1, red=2, green=3)
+	'bucket_1': Bucket(black=4, red=5, green=6)
+	'bucket_2': Bucket(black=7, red=8, green=9)
+	'bucket_3': Bucket(black=10, red=11, green=12)
 }
 
 WS_0.setState(state)
